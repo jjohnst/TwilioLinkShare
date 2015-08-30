@@ -6,7 +6,6 @@ function onPageDetailsReceived(pageDetails)  {
 }
 //Get verified numbers from Twilio account and add them to dropdown
 function getContacts() {
-    var data = null;
 
     var xhr = new XMLHttpRequest();
     xhr.withCredentials = true;
